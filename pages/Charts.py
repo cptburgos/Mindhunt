@@ -12,6 +12,8 @@ chart_data = pd.DataFrame(
 
 st.line_chart(chart_data)
 
+
+st.write("Hey... this is a Scatterplot map---")
 df_map = pd.DataFrame(
     np.random.rand(100, 2) / [40,40] + [13.7, -89.21],
     columns = ['lat', 'lon'])
